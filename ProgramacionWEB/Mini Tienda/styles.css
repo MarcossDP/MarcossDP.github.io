@@ -1,0 +1,111 @@
+button.comprar{
+    margin-top: 4px;
+    color: #242444;
+    background-color: #adade9;
+    padding: 3px;
+}
+button:hover{
+    transform: scale(105%);
+    background-color: #242444;
+    color: #adade9;
+    transition: 500ms;
+}
+div.cajaauriculares:hover{
+    transform: scale(105%);
+    transition: 500ms;
+    margin-top: 10px;
+    background-color: #363664;
+}
+div.cajamouse:hover{
+    transform: scale(105%);
+    transition: 500ms;
+    margin-top: 10px;
+    background-color: #363664;
+}
+div.cajateclado:hover{
+    transform: scale(105%);
+    transition: 500ms;
+    margin-top: 10px;
+    background-color: #363664;
+}
+div.cajamonitor:hover{
+    transform: scale(105%);
+    transition: 500ms;
+    margin-top: 10px;
+    background-color: #363664;
+}
+div.box{
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 200px));
+    column-gap: 35px;
+    row-gap: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+background-color: #0d0d24;
+}
+h1.titulo{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    background-color: #adade9;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 866px;
+    padding-right: 10px;
+    min-width: 270px;
+    max-width: 600px;
+}
+.imagen{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 130px;
+    width: auto;
+}
+div.cajaauriculares{
+    background-color: #2a2a50;
+    padding: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 186px;
+    width: 140px;
+    padding-top: 10px;
+}
+div.cajamouse{
+    background-color: #2a2a50;
+    padding: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 186px;
+    width: 140px;
+    padding-top: 10px;
+}
+div.cajateclado{
+    background-color: #2a2a50;
+    padding: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 186px;
+    width: 140px;
+    padding-top: 10px;
+}
+div.cajamonitor{
+    background-color: #2a2a50;
+    padding: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 186px;
+    width: 140px;
+    padding-top: 10px;
+}
