@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>Juego</title>
+</head>
+<body>
+    <h1>PIEDRA PAPEL O TIJERA</h1>
+    <h2>Por Marcos della Paolera</h2>
+    <section class="textopuntaje">
+        <p>CANTIDAD DE VICTORIAS: </p>&nbsp<p class="victoriasT"> 0</p>
+    </section> 
+    <section class="textoderrotas">
+        <p>CANTIDAD DE DERROTAS: </p>&nbsp<p class="derrotasT"> 0</p>
+    </section> 
+    <section class="textoracha">
+        <p>RACHA DE VICTORIAS: </p>&nbsp<p class="rachaT"> 0</p>
+    </section> 
+    <div>
+        <button class="opcion" onclick="jugar(0)">
+          Piedra &#9994
+        </button>
+        <button class="opcion" onclick="jugar(1)">
+           Papel &#9995
+        </button>
+        <button class="opcion" onclick="jugar(2)">
+            Tijera &#9996
+        </button>
+    </div>
+    <section>
+        <img src="hasganado.png" alt="" id="ganaste">
+    </section>
+    <section>
+        <img src="hasperdido.png" alt="" id="perdiste">
+    </section>
+    <section>
+        <img src="hasempatado.png" alt="" id="empataste">
+    </section>
+</body>
+</html>
